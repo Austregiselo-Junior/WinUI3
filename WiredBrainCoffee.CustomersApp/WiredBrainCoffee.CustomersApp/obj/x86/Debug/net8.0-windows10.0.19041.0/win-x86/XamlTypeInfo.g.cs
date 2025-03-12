@@ -226,29 +226,33 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "WiredBrainCoffee.CustomersApp.MainWindow";
-            _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[7] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[8] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[9] = "Int32";
+            _typeNameTable[4] = "WiredBrainCoffee.CustomersApp.Controls.HeaderControl";
+            _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[6] = "WiredBrainCoffee.CustomersApp.MainWindow";
+            _typeNameTable[7] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[10] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[11] = "Int32";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::WiredBrainCoffee.CustomersApp.MainWindow);
-            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[8] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[9] = typeof(global::System.Int32);
+            _typeTable[4] = typeof(global::WiredBrainCoffee.CustomersApp.Controls.HeaderControl);
+            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[6] = typeof(global::WiredBrainCoffee.CustomersApp.MainWindow);
+            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[10] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[11] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -284,12 +288,14 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_MainWindow() { return new global::WiredBrainCoffee.CustomersApp.MainWindow(); }
-        private object Activate_6_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_4_HeaderControl() { return new global::WiredBrainCoffee.CustomersApp.Controls.HeaderControl(); }
+        private object Activate_6_MainWindow() { return new global::WiredBrainCoffee.CustomersApp.MainWindow(); }
+        private object Activate_8_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
-        private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WiredBrainCoffee.CustomersApp.MainWindow).TypeHandle);
-        private void StaticInitializer_6_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_8_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_4_HeaderControl() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WiredBrainCoffee.CustomersApp.Controls.HeaderControl).TypeHandle);
+        private void StaticInitializer_6_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WiredBrainCoffee.CustomersApp.MainWindow).TypeHandle);
+        private void StaticInitializer_8_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_10_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -297,7 +303,7 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_8_IList(object instance, object item)
+        private void VectorAdd_10_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -335,22 +341,34 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
                 xamlType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  WiredBrainCoffee.CustomersApp.MainWindow
-                userType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_4_MainWindow;
-                userType.StaticInitializer = StaticInitializer_4_MainWindow;
+            case 4:   //  WiredBrainCoffee.CustomersApp.Controls.HeaderControl
+                userType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_4_HeaderControl;
+                userType.StaticInitializer = StaticInitializer_4_HeaderControl;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Microsoft.UI.Xaml.Window
+            case 5:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 6:   //  WiredBrainCoffee.CustomersApp.MainWindow
+                userType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_6_MainWindow;
+                userType.StaticInitializer = StaticInitializer_6_MainWindow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Microsoft.UI.Xaml.Window
+                xamlType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_6_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_6_TreeViewNode;
+                userType.Activator = Activate_8_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_8_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -362,19 +380,19 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
                 xamlType = userType;
                 break;
 
-            case 7:   //  Microsoft.UI.Xaml.DependencyObject
+            case 9:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 10:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_8_IList;
-                userType.CollectionAdd = VectorAdd_8_IList;
+                userType.StaticInitializer = StaticInitializer_10_IList;
+                userType.CollectionAdd = VectorAdd_10_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 9:   //  Int32
+            case 11:   //  Int32
                 xamlType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

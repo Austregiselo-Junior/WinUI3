@@ -655,6 +655,9 @@
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\WiredBrainCoffee.CustomersApp.deps.json">
       <PackagePath>WiredBrainCoffee.CustomersApp.deps.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\Assets\coffe.png">
+      <PackagePath>Assets\coffe.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
