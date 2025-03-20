@@ -9,7 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#222222">
+    <Grid x:Name="root" Background="#222222">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -37,13 +37,13 @@
                 <RowDefinition />
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal">
-                <Button Margin="10">
+                <Button Margin="10" Command="{x:Bind ViewModel.AddCommand}" CommandParameter="true">
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend" />
                         <TextBlock Margin="5,0,0,0" Text="Add" />
                     </StackPanel>
                 </Button>
-                <Button Margin="0,10,10,10">
+                <Button Margin="0,10,10,10" Command="{x:Bind ViewModel.DeleteCommand}" CommandParameter="true">
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete" />
                         <TextBlock Margin="5,0,0,0" Text="Delete" />
@@ -55,22 +55,26 @@
             </StackPanel>
 
             <ListView
-                Grid.Row="1" x:Name="customerListView"
+                x:Name="customerListView"
+                Grid.Row="1"
+                DisplayMemberPath="FirstName"
+                ItemsSource="{x:Bind ViewModel.Customers, Mode=OneWay}"
                 ScrollViewer.HorizontalScrollBarVisibility="Auto"
-                ScrollViewer.HorizontalScrollMode="Enabled">
-                <ListViewItem>Julia</ListViewItem>
-                <ListViewItem>Alex</ListViewItem>
-                <ListViewItem>Austregíselo De Vasconcelos Junior</ListViewItem>
-            </ListView>
+                ScrollViewer.HorizontalScrollMode="Enabled"
+                SelectedItem="{x:Bind ViewModel.SelectedCustomer, Mode=TwoWay}" />
         </Grid>
 
         <StackPanel
             Grid.Row="1"
             Grid.Column="1"
-            Margin="10">
-            <TextBox Header="Firstnme" Text="{Binding ElementName=customerListView, Path=SelectedItem.Content,Mode=TwoWay}" />
-            <TextBox Margin="0,10,0,0" Header="Lastname" />
-            <CheckBox Margin="0,20,0,0">
+            Margin="10"
+            Visibility="{x:Bind ViewModel.IsCustomerSelected, Mode=OneWay}">
+            <TextBox Header="Firstname" Text="{x:Bind ViewModel.SelectedCustomer.FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox
+                Margin="0,10,0,0"
+                Header="Lastname"
+                Text="{x:Bind ViewModel.SelectedCustomer.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <CheckBox Margin="0,20,0,0" IsChecked="{x:Bind ViewModel.SelectedCustomer.IsDeveloper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                 Is developer
             </CheckBox>
         </StackPanel>

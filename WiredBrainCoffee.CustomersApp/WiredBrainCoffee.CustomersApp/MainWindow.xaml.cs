@@ -1,13 +1,24 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using WiredBrainCoffee.CustomersApp.Data;
+using WiredBrainCoffee.CustomersApp.ViewModel;
 
 namespace WiredBrainCoffee.CustomersApp
 {
     public sealed partial class MainWindow : Window
     {
+        public MainViewModel ViewModel { get; }
+
         public MainWindow()
         {
             this.InitializeComponent();
+            ViewModel = new MainViewModel(new CustomerDataProvider());
+            root.Loaded += Root_Loaded;
+        }
+
+        private async void Root_Loaded(object sender, RoutedEventArgs e)
+        {
+            await ViewModel.LoadAsync();
         }
 
         private void ButtonMoveNavigation_Click(object sender, RoutedEventArgs e)

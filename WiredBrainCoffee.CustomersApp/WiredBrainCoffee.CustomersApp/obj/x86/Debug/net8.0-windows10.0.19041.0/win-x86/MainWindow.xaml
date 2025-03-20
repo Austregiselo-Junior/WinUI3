@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Window
+<Window x:ConnectionId='1'
     x:Class="WiredBrainCoffee.CustomersApp.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,7 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#222222">
+    <Grid x:ConnectionId='2' x:Name="root" Background="#222222">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -27,7 +27,7 @@
 
         <controls:HeaderControl Grid.ColumnSpan="3" />
 
-        <Grid x:ConnectionId='2'
+        <Grid x:ConnectionId='3'
             x:Name="custmerListGris"
             Grid.Row="1"
             MaxWidth="250"
@@ -37,40 +37,44 @@
                 <RowDefinition />
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal">
-                <Button Margin="10">
+                <Button x:ConnectionId='9' Margin="10"                                        >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend" />
                         <TextBlock Margin="5,0,0,0" Text="Add" />
                     </StackPanel>
                 </Button>
-                <Button Margin="0,10,10,10">
+                <Button x:ConnectionId='10' Margin="0,10,10,10"                                           >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete" />
                         <TextBlock Margin="5,0,0,0" Text="Delete" />
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='4' Margin="0,10,10,10"                                   >
-                    <SymbolIcon x:ConnectionId='5' x:Name="symbolIconMoveNavigation" Symbol="Forward" />
+                <Button x:ConnectionId='11' Margin="0,10,10,10"                                   >
+                    <SymbolIcon x:ConnectionId='12' x:Name="symbolIconMoveNavigation" Symbol="Forward" />
                 </Button>
             </StackPanel>
 
-            <ListView x:ConnectionId='3'
-                Grid.Row="1" x:Name="customerListView"
+            <ListView x:ConnectionId='8'
+                x:Name="customerListView"
+                Grid.Row="1"
+                DisplayMemberPath="FirstName"
+                                                                       
                 ScrollViewer.HorizontalScrollBarVisibility="Auto"
-                ScrollViewer.HorizontalScrollMode="Enabled">
-                <ListViewItem>Julia</ListViewItem>
-                <ListViewItem>Alex</ListViewItem>
-                <ListViewItem>Austregíselo De Vasconcelos Junior</ListViewItem>
-            </ListView>
+                ScrollViewer.HorizontalScrollMode="Enabled"
+                                                                                />
         </Grid>
 
-        <StackPanel
+        <StackPanel x:ConnectionId='4'
             Grid.Row="1"
             Grid.Column="1"
-            Margin="10">
-            <TextBox Header="Firstnme" Text="{Binding ElementName=customerListView, Path=SelectedItem.Content,Mode=TwoWay}" />
-            <TextBox Margin="0,10,0,0" Header="Lastname" />
-            <CheckBox Margin="0,20,0,0">
+            Margin="10"
+                                                                           >
+            <TextBox x:ConnectionId='5' Header="Firstname"                                                                                                        />
+            <TextBox x:ConnectionId='6'
+                Margin="0,10,0,0"
+                Header="Lastname"
+                                                                                                                      />
+            <CheckBox x:ConnectionId='7' Margin="0,20,0,0"                                                                                                              >
                 Is developer
             </CheckBox>
         </StackPanel>

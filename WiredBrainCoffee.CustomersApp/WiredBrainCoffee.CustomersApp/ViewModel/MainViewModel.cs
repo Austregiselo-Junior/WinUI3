@@ -1,21 +1,55 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
+using WiredBrainCoffee.CustomersApp.Command;
 using WiredBrainCoffee.CustomersApp.Data;
 using WiredBrainCoffee.CustomersApp.Model;
 
 namespace WiredBrainCoffee.CustomersApp.ViewModel
 {
-    public class MainViewModel
+    public class MainViewModel : ViewModelBase
     {
-        public ObservableCollection<Customer> Customers { get; } = new();
+        private readonly ICustomerDataProvider _customerDataProvider;
+        private CustomerItemViewModel? _selectedCustomer;
 
-        private ICustomerDataProvider _customerDataProvider;
+        public DelegateCommand AddCommand { get; }
+        public DelegateCommand DeleteCommand { get; }
+        public bool IsCustomerSelected => _selectedCustomer != null;
+        public ObservableCollection<CustomerItemViewModel> Customers { get; } = new();
+
+        public CustomerItemViewModel? SelectedCustomer
+        {
+            get => _selectedCustomer;
+            set
+            {
+                if (_selectedCustomer != value)
+                {
+                    _selectedCustomer = value;
+                    RaisePropertyChanged();
+                    RaisePropertyChanged(nameof(IsCustomerSelected));
+                    DeleteCommand.RaiseCanExecuteChanged();
+                }
+            }
+        }
 
         public MainViewModel(ICustomerDataProvider customerDataProvider)
         {
             _customerDataProvider = customerDataProvider;
+
+            AddCommand = new DelegateCommand(Add);
+            DeleteCommand = new DelegateCommand(Delete, CanDelete);
         }
+
+        private void Delete(object? parameter)
+        {
+            if (parameter is not null)
+            {
+                Customers.Remove(SelectedCustomer);
+                SelectedCustomer = null;
+            }
+        }
+
+        private bool CanDelete(object? parameter) => SelectedCustomer != null;
 
         public async Task LoadAsync()
         {
@@ -29,9 +63,17 @@ namespace WiredBrainCoffee.CustomersApp.ViewModel
             {
                 foreach (var customer in customers)
                 {
-                    Customers.Add(customer);
+                    Customers.Add(new CustomerItemViewModel(customer));
                 }
             }
+        }
+
+        private void Add(object? parameter)
+        {
+            var customer = new Customer { FirstName = "new" };
+            var viewModel = new CustomerItemViewModel(customer);
+            Customers.Add(viewModel);
+            SelectedCustomer = viewModel;
         }
     }
 }
