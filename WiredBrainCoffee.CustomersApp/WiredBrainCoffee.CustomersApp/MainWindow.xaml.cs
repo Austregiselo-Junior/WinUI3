@@ -34,5 +34,10 @@ namespace WiredBrainCoffee.CustomersApp
 
             symbolIconMoveNavigation.Symbol = newColumn == 0 ? Symbol.Forward : Symbol.Back;
         }
+
+        private void ButtonToogleTheme_Click(object sender, RoutedEventArgs e)
+        {
+            root.RequestedTheme = root.RequestedTheme == ElementTheme.Light ? ElementTheme.Dark : ElementTheme.Light;
+        }
     }
 }

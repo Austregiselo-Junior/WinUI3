@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WiredBrainCoffee.CustomersApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+719dcd0071907a009584cc87b1a6996d136f832f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80c0086ecc7a5a4b167a51952d046f5006aee0c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WiredBrainCoffee.CustomersApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WiredBrainCoffee.CustomersApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

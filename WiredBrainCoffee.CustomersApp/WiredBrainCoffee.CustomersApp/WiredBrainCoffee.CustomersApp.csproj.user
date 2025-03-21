@@ -5,6 +5,9 @@
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Resources\Brushes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Controls\HeaderControl.xaml">
       <SubType>Designer</SubType>
     </Page>

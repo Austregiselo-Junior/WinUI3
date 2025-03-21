@@ -9,7 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="root" Background="#222222">
+    <Grid x:Name="root" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -27,11 +27,13 @@
 
         <controls:HeaderControl Grid.ColumnSpan="3" />
 
+        <Button Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Top" Content="Yoggle theme" Margin="10" Click="ButtonToogleTheme_Click" />
+
         <Grid
             x:Name="custmerListGris"
             Grid.Row="1"
             MaxWidth="250"
-            Background="#333333">
+            Background="{ThemeResource NavigationBackgroundBrush}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition />
