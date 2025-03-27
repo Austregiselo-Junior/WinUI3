@@ -7,9 +7,20 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:WiredBrainCoffee.CustomersApp"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:WiredBrainCoffee.CustomersApp.ViewModel"
     mc:Ignorable="d">
 
     <Grid x:ConnectionId='2' x:Name="root" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.Resources>
+            <DataTemplate x:Key="CustomerDataTemplate"                                             >
+                <StackPanel x:ConnectionId='4' Orientation="Horizontal">
+                    <TextBlock x:ConnectionId='5' FontWeight="Bold"                                        />
+                    <TextBlock x:ConnectionId='6' Margin="5,0,0,0"                                       />
+                    <TextBlock x:ConnectionId='7' Margin="5,0,0,0" Text="(Dev)"                                                />
+                </StackPanel>
+            </DataTemplate>
+        </Grid.Resources>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -27,57 +38,67 @@
 
         <controls:HeaderControl Grid.ColumnSpan="3" />
 
-        <Button x:ConnectionId='3' Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Top" Content="Yoggle theme" Margin="10"                                 />
+        <Button x:ConnectionId='8'
+            Grid.Column="3"
+            Margin="10"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+                                           
+            Content="Yoggle theme" />
 
-        <Grid x:ConnectionId='4'
+        <Grid x:ConnectionId='9'
             x:Name="custmerListGris"
             Grid.Row="1"
             MaxWidth="250"
-            Background="{ThemeResource NavigationBackgroundBrush}"
-            RequestedTheme="Dark">
+            Background="{ThemeResource NavigationBackgroundBrush}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition />
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal">
-                <Button x:ConnectionId='10' Margin="10"                                         CommandParameter="true">
+                <Button x:ConnectionId='15'
+                    Margin="10"
+                                                           
+                    CommandParameter="true">
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend" />
                         <TextBlock Margin="5,0,0,0" Text="Add" />
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='11' Margin="0,10,10,10"                                            CommandParameter="true">
+                <Button x:ConnectionId='16'
+                    Margin="0,10,10,10"
+                                                              
+                    CommandParameter="true">
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete" />
                         <TextBlock Margin="5,0,0,0" Text="Delete" />
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='12' Margin="0,10,10,10"                                   >
-                    <SymbolIcon x:ConnectionId='13' x:Name="symbolIconMoveNavigation" Symbol="Forward" />
+                <Button x:ConnectionId='17' Margin="0,10,10,10"                                   >
+                    <SymbolIcon x:ConnectionId='18' x:Name="symbolIconMoveNavigation" Symbol="Forward" />
                 </Button>
             </StackPanel>
 
-            <ListView x:ConnectionId='9'
-                x:Name="customerListView"
+            <ListView x:ConnectionId='14'
                 Grid.Row="1"
-                DisplayMemberPath="FirstName"
+                ItemTemplate="{StaticResource CustomerDataTemplate}"
                                                                        
                 ScrollViewer.HorizontalScrollBarVisibility="Auto"
                 ScrollViewer.HorizontalScrollMode="Enabled"
                                                                                 />
         </Grid>
 
-        <StackPanel x:ConnectionId='5'
+        <StackPanel x:ConnectionId='10'
             Grid.Row="1"
             Grid.Column="1"
             Margin="10"
                                                                            >
-            <TextBox x:ConnectionId='6' Header="Firstname"                                                                                                        />
-            <TextBox x:ConnectionId='7'
+            <TextBox x:ConnectionId='11' Header="Firstname"                                                                                                        />
+            <TextBox x:ConnectionId='12'
                 Margin="0,10,0,0"
                 Header="Lastname"
                                                                                                                       />
-            <CheckBox x:ConnectionId='8' Margin="0,20,0,0"                                                                                                              >
+            <CheckBox x:ConnectionId='13' Margin="0,20,0,0"                                                                                                              >
                 Is developer
             </CheckBox>
         </StackPanel>

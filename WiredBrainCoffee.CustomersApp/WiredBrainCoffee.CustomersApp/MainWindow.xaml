@@ -7,9 +7,24 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:WiredBrainCoffee.CustomersApp"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:WiredBrainCoffee.CustomersApp.ViewModel"
     mc:Ignorable="d">
 
     <Grid x:Name="root" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.Resources>
+            <DataTemplate x:Key="CustomerDataTemplate" x:DataType="viewModel:CustomerItemViewModel">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontWeight="Bold" Text="{x:Bind FirstName, Mode=OneWay}" />
+                    <TextBlock Margin="5,0,0,0" Text="{x:Bind LastName, Mode=OneWay}" />
+                    <TextBlock
+                        Margin="5,0,0,0"
+                        Opacity="0.5"
+                        Text="(Dev)"
+                        Visibility="{x:Bind IsDeveloper, Mode=OneWay}" />
+                </StackPanel>
+            </DataTemplate>
+        </Grid.Resources>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -27,7 +42,13 @@
 
         <controls:HeaderControl Grid.ColumnSpan="3" />
 
-        <Button Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Top" Content="Yoggle theme" Margin="10" Click="ButtonToogleTheme_Click" />
+        <Button
+            Grid.Column="3"
+            Margin="10"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Click="ButtonToogleTheme_Click"
+            Content="Yoggle theme" />
 
         <Grid
             x:Name="custmerListGris"
@@ -39,13 +60,19 @@
                 <RowDefinition />
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal">
-                <Button Margin="10" Command="{x:Bind ViewModel.AddCommand}" CommandParameter="true">
+                <Button
+                    Margin="10"
+                    Command="{x:Bind ViewModel.AddCommand}"
+                    CommandParameter="true">
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend" />
                         <TextBlock Margin="5,0,0,0" Text="Add" />
                     </StackPanel>
                 </Button>
-                <Button Margin="0,10,10,10" Command="{x:Bind ViewModel.DeleteCommand}" CommandParameter="true">
+                <Button
+                    Margin="0,10,10,10"
+                    Command="{x:Bind ViewModel.DeleteCommand}"
+                    CommandParameter="true">
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete" />
                         <TextBlock Margin="5,0,0,0" Text="Delete" />
@@ -57,9 +84,8 @@
             </StackPanel>
 
             <ListView
-                x:Name="customerListView"
                 Grid.Row="1"
-                DisplayMemberPath="FirstName"
+                ItemTemplate="{StaticResource CustomerDataTemplate}"
                 ItemsSource="{x:Bind ViewModel.Customers, Mode=OneWay}"
                 ScrollViewer.HorizontalScrollBarVisibility="Auto"
                 ScrollViewer.HorizontalScrollMode="Enabled"
