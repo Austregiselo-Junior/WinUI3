@@ -10,10 +10,11 @@
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!--  Other merged dictionaries here  -->
                 <ResourceDictionary Source="/Resources/Brushes.xaml" />
+                <ResourceDictionary Source="/Resources/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
             <ResourceDictionary.ThemeDictionaries>
-                <ResourceDictionary  x:Key="Dark">
+                <ResourceDictionary x:Key="Dark">
                     <SolidColorBrush x:Key="NavigationBackgroundBrush" Color="#333333" />
                 </ResourceDictionary>
                 <ResourceDictionary x:Key="Light">

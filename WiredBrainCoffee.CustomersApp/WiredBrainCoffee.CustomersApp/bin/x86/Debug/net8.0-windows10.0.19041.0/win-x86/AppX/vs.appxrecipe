@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-27T00:31:40.403</Modified>
+      <Modified>2025-04-03T00:22:57.330</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-27T00:31:40.062</Modified>
+      <Modified>2025-04-03T00:22:57.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\WiredBrainCoffee.CustomersApp.runtimeconfig.json">
       <PackagePath>WiredBrainCoffee.CustomersApp.runtimeconfig.json</PackagePath>
-      <Modified>2025-02-13T20:15:04.104</Modified>
+      <Modified>2025-04-02T23:39:48.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\WiredBrainCoffee.CustomersApp.dll">
       <PackagePath>WiredBrainCoffee.CustomersApp.dll</PackagePath>
-      <Modified>2025-03-27T00:31:39.673</Modified>
+      <Modified>2025-04-03T00:22:56.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>WiredBrainCoffee.CustomersApp.exe</PackagePath>
-      <Modified>2025-03-27T00:31:39.747</Modified>
+      <Modified>2025-04-03T00:22:56.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
@@ -789,6 +789,14 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\austr\.nuget\packages\microsoft.extensions.dependencyinjection\9.0.3\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2025-02-11T23:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\austr\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.3\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2025-02-11T23:13:46.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\.nuget\packages\microsoft.windowsappsdk\1.6.250205002\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
       <Modified>2024-12-20T22:25:06.000</Modified>
@@ -871,7 +879,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\WiredBrainCoffee.CustomersApp.deps.json">
       <PackagePath>WiredBrainCoffee.CustomersApp.deps.json</PackagePath>
-      <Modified>2025-03-21T00:05:14.391</Modified>
+      <Modified>2025-04-03T00:22:56.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\Assets\coffe.png">
       <PackagePath>Assets\coffe.png</PackagePath>

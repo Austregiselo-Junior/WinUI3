@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\controls\\headercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\controls\\headercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\obj\\x86\\Debug\\net8.0-windows10.0.19041.0\\win-x86\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WiredBrainCoffee.CustomersApp\\obj\\x86\\Debug\\net8.0-windows10.0.19041.0\\win-x86\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\resources\\brushes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\resources\\brushes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|c:\\users\\austr\\onedrive\\documentos\\cursos e concursos\\pdi\\winui3\\wiredbraincoffee.customersapp\\wiredbraincoffee.customersapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6F867F9-57DC-4B37-A180-AE4E83DE45F4}|WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj|solutionrelative:wiredbraincoffee.customersapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,54 +58,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\obj\\x86\\Debug\\net8.0-windows10.0.19041.0\\win-x86\\App.g.i.cs",
-              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\obj\\x86\\Debug\\net8.0-windows10.0.19041.0\\win-x86\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\obj\\x86\\Debug\\net8.0-windows10.0.19041.0\\win-x86\\App.g.i.cs",
-              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\obj\\x86\\Debug\\net8.0-windows10.0.19041.0\\win-x86\\App.g.i.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAuwEQAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T00:08:23.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAASwCcAAAB1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T00:10:28.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Brushes.xaml",
-              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\Resources\\Brushes.xaml",
-              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\Resources\\Brushes.xaml",
-              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\Resources\\Brushes.xaml",
-              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\Resources\\Brushes.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\App.xaml",
+              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\App.xaml",
+              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\App.xaml",
+              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-21T00:00:49.888Z",
+              "WhenOpened": "2025-04-03T00:20:40.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HeaderControl.xaml",
-              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\Controls\\HeaderControl.xaml",
-              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\Controls\\HeaderControl.xaml",
-              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\Controls\\HeaderControl.xaml",
-              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\Controls\\HeaderControl.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\Resources\\Styles.xaml",
+              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\Resources\\Styles.xaml",
+              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\Resources\\Styles.xaml",
+              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\Resources\\Styles.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T23:47:47.333Z",
+              "WhenOpened": "2025-04-03T00:20:11.411Z",
               "EditorCaption": ""
             },
             {
@@ -120,22 +90,35 @@
               "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\MainWindow.xaml",
               "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\MainWindow.xaml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAtwBcAAABHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T23:45:53.957Z",
+              "WhenOpened": "2025-04-02T23:56:20.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\App.xaml",
-              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\App.xaml",
-              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\App.xaml",
-              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\App.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T23:44:06.489Z",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:32:57.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WiredBrainCoffee.CustomersApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\App.xaml.cs",
+              "RelativeToolTip": "WiredBrainCoffee.CustomersApp\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:15:01.072Z",
               "EditorCaption": ""
             }
           ]

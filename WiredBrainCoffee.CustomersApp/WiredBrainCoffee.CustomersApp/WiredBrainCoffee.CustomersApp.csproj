@@ -30,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250205002" />
     <Manifest Include="$(ApplicationManifest)" />
@@ -58,6 +59,12 @@
   <ItemGroup>
     <None Remove="Controls\HeaderControl.xaml" />
     <None Remove="Resources\Brushes.xaml" />
+    <None Remove="Resources\Styles.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Resources\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Controls\HeaderControl.xaml">

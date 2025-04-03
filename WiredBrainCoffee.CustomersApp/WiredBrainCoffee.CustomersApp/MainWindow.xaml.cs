@@ -1,6 +1,5 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using WiredBrainCoffee.CustomersApp.Data;
 using WiredBrainCoffee.CustomersApp.ViewModel;
 
 namespace WiredBrainCoffee.CustomersApp
@@ -9,10 +8,10 @@ namespace WiredBrainCoffee.CustomersApp
     {
         public MainViewModel ViewModel { get; }
 
-        public MainWindow()
+        public MainWindow(MainViewModel viewModel)
         {
             this.InitializeComponent();
-            ViewModel = new MainViewModel(new CustomerDataProvider());
+            ViewModel = viewModel;
             root.Loaded += Root_Loaded;
         }
 

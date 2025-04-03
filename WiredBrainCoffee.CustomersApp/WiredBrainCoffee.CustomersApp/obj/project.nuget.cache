@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Fkgog9CO99s=",
+  "dgSpecHash": "UbKnrFZ2B1Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\austr\\OneDrive\\Documentos\\Cursos e concursos\\PDI\\WinUI3\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\austr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\austr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
     "C:\\Users\\austr\\.nuget\\packages\\microsoft.web.webview2\\1.0.2651.64\\microsoft.web.webview2.1.0.2651.64.nupkg.sha512",
     "C:\\Users\\austr\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\austr\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250205002\\microsoft.windowsappsdk.1.6.250205002.nupkg.sha512",

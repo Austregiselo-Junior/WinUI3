@@ -293,7 +293,6 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_HeaderControl() { return new global::WiredBrainCoffee.CustomersApp.Controls.HeaderControl(); }
-        private object Activate_6_MainWindow() { return new global::WiredBrainCoffee.CustomersApp.MainWindow(); }
         private object Activate_9_ViewModelBase() { return new global::WiredBrainCoffee.CustomersApp.ViewModel.ViewModelBase(); }
         private object Activate_10_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
@@ -362,7 +361,6 @@ namespace WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeIn
 
             case 6:   //  WiredBrainCoffee.CustomersApp.MainWindow
                 userType = new global::WiredBrainCoffee.CustomersApp.WiredBrainCoffee_CustomersApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_6_MainWindow;
                 userType.StaticInitializer = StaticInitializer_6_MainWindow;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();

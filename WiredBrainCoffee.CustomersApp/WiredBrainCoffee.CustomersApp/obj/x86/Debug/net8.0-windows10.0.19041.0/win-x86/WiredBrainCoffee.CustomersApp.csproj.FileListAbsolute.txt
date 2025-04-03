@@ -258,3 +258,8 @@ C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffe
 C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Resources\Brushes.xbf
 C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Resources\Brushes.xaml
 C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Resources\Brushes.xbf
+C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Resources\Styles.xbf
+C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Resources\Styles.xaml
+C:\Users\austr\OneDrive\Documentos\Cursos e concursos\PDI\WinUI3\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Resources\Styles.xbf
